@@ -1,39 +1,36 @@
-# Collections
+# Alerts
 
-## (HIG 원문)
-> (영문 내용)
-
-Alerts convey important information related to the state of your app or the device. An alert consists of a title, an optional message, one or more buttons, and optional text fields for gathering input. Aside from these configurable elements, you can’t customize the visual appearance of an alert.
-
+## HIG 원문
+> Alerts convey important information related to the state of your app or the device. An alert consists of a title, an optional message, one or more buttons, and optional text fields for gathering input. Aside from these configurable elements, you can’t customize the visual appearance of an alert.<br><br>
 A screenshot of an alert on top of the Maps app. The alert has a title, a message, and a button labeled OK.
 For developer guidance, see UIAlertController.
-
+<br><br>
 Minimize alerts. Alerts disrupt the user experience so it’s important to use them infrequently and only to deliver critical information. For example, an alert can notify people about a problem or give them the opportunity to confirm a purchase or a destructive action.
-
+<br><br>
 Use an action sheet — not an alert — to offer choices related to an intentional action. For example, when people cancel the Mail message they’re editing, an action sheet provides three choices: delete the edits (or the entire draft), save the draft, or return to editing. Although an alert can also help people confirm or cancel an action that has destructive consequences, it doesn’t provide additional choices related to the action. For guidance, see Action Sheets.
-
+<br><br>
 Avoid scrolling alerts when possible. For example, an alert might scroll if the text size is large enough. Minimize the potential for scrolling by keeping alert titles short and including a brief message only when necessary.
-
+<br><br>
 Alert Titles and Messages
 Write short, descriptive, multiword alert titles. Although less text is generally better, single-word titles rarely provide enough information. As much as possible, create a title that succinctly describes the situation without needing additional message text. If the title is a complete sentence, use sentence-style capitalization and appropriate ending punctuation; if the title is a sentence fragment, use title-style capitalization and don’t add ending punctuation. For guidance, see capitalization.
-
+<br><br>
 If you must provide a message, write short, complete sentences. Create a message that’s short enough to fit on one or two lines so people don’t have to scroll. Use sentence-style capitalization and appropriate ending punctuation.
-
+<br><br>
 Be direct, and use a neutral, approachable tone. Alerts describe problems and serious situations, so it’s important to avoid being oblique or accusatory, or masking the severity of the issue.
-
+<br><br>
 Avoid explaining the alert buttons. If your alert text and button titles are clear, there’s no need to explain what the buttons do. In rare cases where you need to provide guidance on choosing a button, use a term like choose to account for people’s current interaction method, and use the exact button title without quotes.
-
+<br><br>
 Alert Buttons
 Create succinct, logical button titles. Aim for a one- or two-word title that describes the result of selecting the button. Prefer verbs and verb phrases that relate directly to the alert title and message — for example, View All, Reply, or Ignore. Use OK for simple acceptance, and avoid using Yes and No. Always use Cancel to title a button that cancels the alert’s action. As with all button titles, use title-style capitalization and no ending punctuation.
-
+<br><br>
 Place buttons where people expect them. In a typical two-button alert, the button people are most likely to tap is on the trailing side and the Cancel button is on the leading side. An alert that contains more than two buttons displays them in a stack, with the most likely button at the top and the Cancel button at the bottom.
-
+<br><br>
 Identify destructive buttons. If an alert button results in a destructive action, such as deleting content, use the destructive button style to ensure the system displays it appropriately. For developer guidance, see the UIAlertAction.Style.destructive. In this scenario, be sure also to include a Cancel button in the alert so people can explicitly opt out of the destructive action. Use the default style for the Cancel button so people can also activate it by pressing Return on a keyboard.
-
+<br><br>
 Let people cancel an alert by exiting to the Home screen. Accessing the Home screen while an alert is visible exits the app, dismissing the alert without performing any action. People also appreciate canceling an alert by pressing Escape (Esc) on a keyboard or using the standard keyboard shortcut Command-Period (.).
 
 
-## (한글 번역)
+## 한글 번역
 ![](https://velog.velcdn.com/images/dnfl8721/post/5ef84433-eb99-4980-9f23-904b89ecc104/image.png)
 
 >**1) 특징**

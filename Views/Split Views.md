@@ -1,4 +1,4 @@
-# [Scroll Views](https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/)
+# [Split Views](https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/)
 
 ## (HIG 원문)
 

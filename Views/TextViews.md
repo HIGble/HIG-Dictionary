@@ -16,8 +16,7 @@ Show the appropriate keyboard type. iOS provides several different keyboard type
 - left-aligned가 디폴트
 - editable가능하다면 탭할때 키보드가 나타난다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/23d9be5c-c7df-4289-b0ab-277358c4d67d/Untitled.png)
-
+![image](https://user-images.githubusercontent.com/69894461/167618328-f5b2a805-4cb9-4172-83cf-a8afe5601b31.png)
 >### 가이드라인
 ### 텍스트를 읽을수 있도록 유지하라.
 
@@ -29,7 +28,6 @@ Show the appropriate keyboard type. iOS provides several different keyboard type
 
 - 인풋의 타입에 따라 적절한 키보드 타입 보여주기.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d4acec24-f176-4936-bb30-41a15b84b1f9/Untitled.png)
-
+![image](https://user-images.githubusercontent.com/69894461/167618396-41237f4f-31e1-4865-a35d-8a3a332c8673.png)
 
 ## Point of this component (이 타이틀은 나중에 결정하시죠)

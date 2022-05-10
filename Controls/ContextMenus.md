@@ -6,6 +6,8 @@
 > (영문 내용)
 Context Menus
 In iOS 13 and later, you can use context menus to give people access to additional functionality related to onscreen items without cluttering the interface.
+<img width="338" alt="image" src="https://user-images.githubusercontent.com/64766255/167635962-cc23dc98-6606-43eb-a874-95e1119cfd18.png">
+
 <br></br>
 Context menus are similar to Peek and Pop, but with two key differences:
 <br></br>
@@ -67,6 +69,8 @@ Context menu를 나타내기 위해선, 시스템 정의된 터치, 홀드 제�
 
 ### Context menu 와 Edit menu 를 동시에 제공하는 것을 피하자.
 한 아이템에 Context menu 와 Edit menu 를 동시에 제공하는 것은 사용자를 혼란스럽게 하고 시스템적으로 의도를 파악하는데 어려움을 준다.
+* Edit menu
+<img width="352" alt="image" src="https://user-images.githubusercontent.com/64766255/167636031-d13dc96b-e7b8-44bf-ac0a-bd6598058218.png">
 
 ### 아이템 프리뷰를 오픈하는 버튼의 사용을 피하자.
 사용자는 탭(터치)을 통해 아이템을 열어 프리뷰할 수 있으므로, 명백하게 오픈 버튼을 필요로 하지 않는다.

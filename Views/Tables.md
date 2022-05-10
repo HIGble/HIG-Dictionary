@@ -38,20 +38,26 @@ For developer guidance, see UITableView.
 
 - 테이블은 텍스트기반의 콘텐츠가 이상적
 - 스플릿뷰의 한사이드에서 네비게이션의 수단으로 종종 사용됨.
+![image](https://user-images.githubusercontent.com/69894461/167611893-2fcce708-e036-4d82-84a7-4754aebbfc02.png)
 
 >### 테이블 스타일
 1. ### plain
 - index 표기 (optional)
+![image](https://user-images.githubusercontent.com/69894461/167611964-5a099917-cbce-4341-9c9b-1d8accf2f62f.png)
 
 2. ### grouped
 - index 표기 포함x
+![image](https://user-images.githubusercontent.com/69894461/167612085-cf9b81b7-77a1-4db2-9359-a2e549bbd8ef.png)
+
+
 3. ### inset grouped
 - index 표기 포함x
 - a regular width environment에 적합
-
 - compact environmet에서는 원치않은 텍스트 줄바꿈이 일어날 수 있음. especially when content is localized
 (각 디바이스에 content가 적용될 때로 생각했음.) 
  
+![image](https://user-images.githubusercontent.com/69894461/167612155-22aa0f03-fef8-40f9-9b9e-7834045fd493.png)
+![image](https://user-images.githubusercontent.com/69894461/167612199-a2a71875-7c9d-4e74-8c99-310d4ed4ba59.png)
 
 
 >### 가이드라인
@@ -84,5 +90,43 @@ For developer guidance, see UITableView.
 - 그래서disclosure indicator같은 것이 옆에 있다면 유저의 의도를 파악하기 어려움. → 인덱스를 조작하기 위함인지, disclosure를 위함인지.
 
 → 완벽히 이해 못함.
+
+### Table Rows
+### 구성
+1. ### Basidc
+- 왼쪽 optional 이미지, 왼쪽 정렬 타이틀
+![image](https://user-images.githubusercontent.com/69894461/167613070-01cc1d7e-504d-496c-bd52-b38972f58716.png)
+
+
+2. ### Subtitle
+- 시각적으로 유사한 rows를 구분지울 수 있음
+
+![image](https://user-images.githubusercontent.com/69894461/167613101-28384071-0d1b-47d3-a37c-65dedb3ddc6a.png)
+
+3. ### Right Detail
+![image](https://user-images.githubusercontent.com/69894461/167613165-3f490c39-81de-4f14-a26d-7f9b703cf7ac.png)
+
+
+4. ### Left Detail
+![image](https://user-images.githubusercontent.com/69894461/167613223-269e2bfc-6421-4d5a-a6e4-28da40b7c70a.png)
+
+
+
+### **잘림을 피하기 위해 텍스트를 간결하게 하라.**
+
+### **삭제버튼을 위한 커스텀 타이틀을 이용하는 것을 고려하라.**
+
+만약 하나의 행이 제거기능을 제공하고 이가 명확성을 제공한다면
+
+시스템에서 제공되는 delete 타이틀을 커스텀 타이틀로 대체하라.
+
+—> 예시가 필요하다..
+
+### **콘텐츠를 선택하면 피드백을 제공하라.**
+
+- 새로운 뷰를 보여주던가 혹은 어떤것이 바뀌도록 하라.
+
+### **표준이 아닌 테이블 행들은 커스텀 테이블 셀 스타일로 디자인하라.**
+
 
 ## Point of this component (이 타이틀은 나중에 결정하시죠)

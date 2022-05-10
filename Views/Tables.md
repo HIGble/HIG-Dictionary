@@ -61,7 +61,7 @@ For developer guidance, see UITableView.
 
 
 >### 가이드라인
-
+<br>
 ### **테이블의 너비 생각하기**
 
 - 너무 너비가 작으면 콘텐츠 절단 및 줄바꿈이 발생함
@@ -113,6 +113,7 @@ For developer guidance, see UITableView.
 
 
 ### **잘림을 피하기 위해 텍스트를 간결하게 하라.**
+<br>
 
 ### **삭제버튼을 위한 커스텀 타이틀을 이용하는 것을 고려하라.**
 

@@ -39,7 +39,7 @@ Because the sheet is nonmodal, people can make additional text selections withou
     - 아이폰용으로 설계된 멈춤쇠(detent)는 시트가 자연스럽게 놓이는 특정 높이를 지정한다.
     - 이때, 시스템은 2가지의 멈춤쇠(detent)를 정의한다
         1. large: 높이가 완전히 확장된 시트
-        2. medium: 노피가 반만 확장된 시트
+        2. medium: 노피가 반만 확장된 시트<br/>
     <img width="500" alt="스크린샷 2022-05-10 오후 8 48 23" src="https://user-images.githubusercontent.com/50728605/167621555-92420356-8395-46e9-b0f5-2de8e2b0d602.png"><br/>
     
 - 시트는 대부분 large detent를 지원한다.<br/><br/>

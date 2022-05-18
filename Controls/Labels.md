@@ -23,11 +23,10 @@
     - 레이블의 스타일을 수정하거나 사용자 정의 글꼴을 사용하면 가독성을 해치지 않도록 해야한다.
     - 유저가 기기에서 글크기를 변경할 때도 여전히 가독성이 좋도록 다이나믹 타입([Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/#dynamic-type-sizes))을 채택하는 것이 좋다.
     - Dynamic Type: 유저가 원하는 글크기를 사용할 수 있도록 유저에게 유연성(flexibility)를 제공
-           
+    - 레이블을 [접근성](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/) 옵션을 활성화한 상태(eg. 볼드체)로 테스트를 해봐야 한다.        
 <p align="center">
-<img src="https://user-images.githubusercontent.com/50728605/169069659-5fe3d78f-0caf-4d61-9214-db4ca4147ecb.png" width="400" alignment"center">
+<img src="https://user-images.githubusercontent.com/50728605/169069659-5fe3d78f-0caf-4d61-9214-db4ca4147ecb.png" width="500" alignment"center">
 </p>
-    - 레이블을 [접근성](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/) 옵션을 활성화한 상태(eg. 볼드체)로 테스트를 해봐야 한다.
 
 - 텍스트에 대해 알고싶다면, [String Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Strings/introStrings.html) 확인
 - 텍스트의 스타일을 만들고 싶다면, [Attributed String Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/AttributedStrings/AttributedStrings.html) 확인

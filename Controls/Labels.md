@@ -9,7 +9,10 @@
     - static text: 입력을 하거나 편집이 불가능한 텍스트
     - (cf) dynamic text: 유저가 내용을 입력하거나 편집이 가능한 텍스트
 
-![스크린샷 2022-05-18 오후 8.22.38.png](Labels%20114b6515b62f4626a3be1ef4b4eb561c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.22.38.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/169069599-46deff48-260d-4d2b-a1fc-d696078eabcc.png" width="350" alignment"center">
+</p>
+
 
 ### Guideline
 
@@ -19,10 +22,11 @@
     - 레이블은 기본 또는 스타일이 지정된 텍스트가 포함될 수 있다.
     - 레이블의 스타일을 수정하거나 사용자 정의 글꼴을 사용하면 가독성을 해치지 않도록 해야한다.
     - 유저가 기기에서 글크기를 변경할 때도 여전히 가독성이 좋도록 다이나믹 타입([Dynamic Type](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/#dynamic-type-sizes))을 채택하는 것이 좋다.
-        - Dynamic Type: 유저가 원하는 글크기를 사용할 수 있도록 유저에게 유연성(flexibility)를 제공
-            
-            ![스크린샷 2022-05-18 오후 8.32.20.png](Labels%20114b6515b62f4626a3be1ef4b4eb561c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.32.20.png)
-            
+    - Dynamic Type: 유저가 원하는 글크기를 사용할 수 있도록 유저에게 유연성(flexibility)를 제공
+           
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/169069659-5fe3d78f-0caf-4d61-9214-db4ca4147ecb.png" width="400" alignment"center">
+</p>
     - 레이블을 [접근성](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/) 옵션을 활성화한 상태(eg. 볼드체)로 테스트를 해봐야 한다.
 
 - 텍스트에 대해 알고싶다면, [String Programming Guide](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Strings/introStrings.html) 확인
@@ -36,6 +40,10 @@
 - 아래는 onthelook 라는 패션앱니다.
 - “카테고리"에서 각 그림 아이콘마다 설명(eg 아우터, 상의, 하의 etc)이 되는 레이블이 있다.
 
-![DC94A977-75E4-49E6-8CC9-72F68FE7BF5F.png](Labels%20114b6515b62f4626a3be1ef4b4eb561c/DC94A977-75E4-49E6-8CC9-72F68FE7BF5F.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/169069763-d8354c2f-9deb-4376-8d51-a970f64e8958.png" width="400">
+</p>
 
-![스크린샷 2022-05-18 오후 8.58.43.png](Labels%20114b6515b62f4626a3be1ef4b4eb561c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-18_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.58.43.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/169071192-4cdb042b-0d10-4e33-854d-03840a4be5de.png" width="400">
+</p>

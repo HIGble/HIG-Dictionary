@@ -31,9 +31,10 @@
 - 현재 표시기의 앞이나 뒤의 표시기를 누르면 다음페이지나 이전 페이지가 표시된다.
 - iPadOS에서 사용자는 특정 표시기를 겨냥하는데 포인터를 사용할 수 있다. ⇒ 예시를 찾지 못함…
 - 스크러빙은 페이지를 순차적으로 열고, 가장 양쪽끝(앞과 뒤)으로 문지름으로써 처음과 마지막 페이지로 빠르게 이동이 가능하다.
-    
-    [RPReplay_Final1652895919.MP4](Page%20Controls%206fbb237f2a2745cb9b925a5251d5e419/RPReplay_Final1652895919.mp4)
-    
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/170241143-613ac933-0c3c-45c6-9e35-1656755ff76f.png" width="242" alignment"center">
+</p>
+
 
 <aside>
 💡 API에서 “태핑(tapping)”은 “별개의 상호작용(discrete interaction)”이지만, “스크러빙(scrubbing)”은 “연속적인 상호작용(continuous interaction)”이다. 
@@ -61,19 +62,16 @@
         - Automatic(자동): 사용자가 컨트롤과 상호작용할 때만 배경을 표시한다. 페이지 컨트롤이 UI의 기본탐색 요소가 아닌 경우 이 스타일을 사용한다.
             - (eg1) 날씨 앱
             - (eg2) 아이폰 화면
-                
-                [RPReplay_Final1652895813.MP4](Page%20Controls%206fbb237f2a2745cb9b925a5251d5e419/RPReplay_Final1652895813.mp4)
-                
-            - (eg3) 아이폰 이모티콘 창
-                
-                [RPReplay_Final1652893414.MP4](Page%20Controls%206fbb237f2a2745cb9b925a5251d5e419/RPReplay_Final1652893414.mp4)
-                
-        - Prominent(돌출): 항상 배경을 표시한다. 컨트롤이 화면의 기본 탐색 컨트롤인 경우에만 이 스타일을 사용한다.
-            
-            ![스크린샷 2022-05-19 오전 2.07.52.png](Page%20Controls%206fbb237f2a2745cb9b925a5251d5e419/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-19_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_2.07.52.png)
-            
-        - Minimal(최소):  배경을 표시하지 않는다. 목록에서 현재 페이지의 위치만 표시하고 스크러빙 중에 시각적 피드백을 제공할 필요가 없는 경우 이 스타일을 사용한다.
-            - (eg) Todoist 앱의 보드시도 기능
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/170241440-fb930d4a-8a59-49b0-b64f-ee932090d890.png" width="242" alignment"center">
+</p>      
+            ∙ (eg3) 아이폰 이모티콘 창
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50728605/170241746-477a689c-539c-4875-b560-171ee21d0fc4.png" width="242" alignment"center">
+</p>
+            ∙ Prominent(돌출): 항상 배경을 표시한다. 컨트롤이 화면의 기본 탐색 컨트롤인 경우에만 이 스타일을 사용한다.
+            ∙ Minimal(최소):  배경을 표시하지 않는다. 목록에서 현재 페이지의 위치만 표시하고 스크러빙 중에 시각적 피드백을 제공할 필요가 없는 경우 이 스타일을 사용한다.
+                - (eg) Todoist 앱의 보드시도 기능
                 
                 
 - **최소(minimal) 배경 스타일을 사용할 때는 스크러빙을 지원하지 않는다.**

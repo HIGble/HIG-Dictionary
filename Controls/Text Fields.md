@@ -1,11 +1,11 @@
 # Text Fields
 
-Author: 익명
-Status: Complete
-Tags: Controls
-속성: 2022년 5월 25일 오후 2:46
-원문: https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/
-참고: https://www.notion.so/Text-Fields-fa5ab227ca49415f8bf6cf571e146f1b
+Author: 익명 <br/>
+Status: Complete<br/>
+Tags: Controls<br/>
+속성: 2022년 5월 25일 오후 2:46<br/>
+원문: https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/<br/>
+참고: https://www.notion.so/Text-Fields-fa5ab227ca49415f8bf6cf571e146f1b<br/>
 
 # Overview
 
